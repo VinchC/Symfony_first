@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+$nav-color: orange;
+$text-color: #000000;
+$color-primary: blue;
+$color-secondary: lightgrey;
+
+* {
+    font-family: "Garamond",
+        "Baskerville",
+        sans-serif;
+}
+
+.navbar {
+    background-color: $nav-color;
+    height: 50px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#binome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    background-color: $nav-color;
+    text-align: center;
+}
+
+#binome article {
+    margin: 5%;
+    padding: 5%;
+    background-color: $color-secondary;
+}
+
+body {
+    background-color: $color-primary;
+}

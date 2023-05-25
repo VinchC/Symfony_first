@@ -1,10 +1,20 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Wild Series</title>
-	</head>
-	<body>
-		<h1>Bienvenue !</h1>
-	</body>
-</html>
+{% extends 'base.html.twig' %}
+
+{% block title %}Wild Series
+{% endblock %}
+
+{% block body %}
+	<img src="{{ asset('build/path_to_image.png') }}" alt=""/>
+	<h1>{{ website }}</h1>
+	<section id="binome">
+		<article>
+			<p>-1-</p><br>
+			<p>Hop</p><br>
+		</article>
+
+		<article>
+			<p>-2-</p><br>
+			<p>Bof</p><br>
+		</article>
+	</section>
+{% endblock %}
